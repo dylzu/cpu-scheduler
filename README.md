@@ -1,28 +1,13 @@
 # CA216 CPU Scheduling
 
-## Introduction
-This is the repo for the C starter files.  Read the details below carefully.  Note: the details of the different algorithms required for both the solo and pairs versions of the project are [found in the project spec](https://loop.dcu.ie/mod/assign/view.php?id=1815150) Only implement the files for the project-type you are undertaking.
+To run this project type python3 [python file].py [schedule text file].txt
 
+Python files include; 
+schedule_fcfs.py (first come first served) 
+schedule_priority.py (scheduled in order of priority) 
+schedule_sjf.py (shortest job first)
+schedule_rr.py (round-robin where each task is run for a time quantum (default 10))
 
-## What you need to do
-fork (do not clone) this repository.  Once you have forked it, make your own repository private and add both me (Graham Healy - @healygr) and Wandri Jooste (@joostew2) as "maintainer". If this is a pair project, add the other team member as a maintainer. 
+This project also includes built in error handling.
 
-
-
-## Misc 
-Completing this project will require writing the following C files (if implementing the pair project).
-
-schedule_fcfs.c
-schedule_sjf.c
-schedule_rr.c
-schedule_priority.c
-schedule_priority_rr.c
-
-The supporting files invoke the appropriate scheduling algorithm. 
-
-For example, to build the FCFS scheduler, enter
-```
-make fcfs
-```
-which builds the fcfs executable file.
-
+All time measurements are in msilliseconds (ms)
