@@ -11,3 +11,5 @@ schedule_rr.py (round-robin where each task is run for a time quantum (default 1
 This project also includes built in error handling.
 
 All time measurements are in msilliseconds (ms)
+
+Presentation link: https://youtu.be/5_fglDRlOdc
